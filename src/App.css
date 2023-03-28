@@ -424,20 +424,16 @@
 }
 
 .tasksFormCenter{
-  height: 100vh;
   background-color: wheat;
   display: flex;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
   gap: 5px;
-padding: 10px;
+  padding: 10px;
 }
 
 .formComponents{
-border: black solid 1px;
-background-color: white;
-padding: 10px;
-border-radius: 5px;
+  background-color: white;
 }
 
 .addTaskButton{
@@ -454,4 +450,30 @@ margin: 2em;
   flex-direction: column;
   margin: 10px;
   gap: 1em;
+}
+
+.left {
+  height: 94vh;
+  width: 60%;
+  float: left;
+
+  border: black solid 1px;
+  background-color: lightblue;
+  border-radius: 5px;}
+
+.right {
+  padding: 10px;
+  height: 94vh;
+  width: 40%;
+  float: right;
+
+  border: black solid 1px;
+  background-color: lightblue;
+  border-radius: 5px;
+
+}
+.tasksDataResult{
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
 }
