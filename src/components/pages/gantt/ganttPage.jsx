@@ -1,5 +1,5 @@
 import Gantting from '../../gantt/gantt'
-import Button from '@material-ui/core/Button';
+import Button from '@mui/material/Button';
 import {
   Link
 } from 'react-router-dom';

@@ -3,7 +3,7 @@ import '../../../App.css';
 import Configs from './configurations.json';
 
 import ParticlesBg from 'particles-bg'
-import Button from '@material-ui/core/Button';
+import Button from '@mui/material/Button';
 import {
   Link
 } from 'react-router-dom';
